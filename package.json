@@ -1,0 +1,48 @@
+{
+  "name": "template-deprecate",
+  "description": "Middleware for Template. Warns the user or throws an error when a deprecated template variable or syntax is used.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/template-deprecate",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/template-deprecate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/template-deprecate/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/template-deprecate/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "engine-handlebars": "^0.6.1",
+    "mocha": "*",
+    "should": "^6.0.3",
+    "template": "^0.14.3"
+  },
+  "keywords": [
+    "assemble",
+    "deprecate",
+    "syntax",
+    "template",
+    "variable",
+    "verb"
+  ],
+  "dependencies": {
+    "rethrow": "^0.1.0"
+  }
+}
